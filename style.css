@@ -780,8 +780,7 @@ footer p {
         height: 100vh;
         text-align: center;
         transition: 0.3s;
-        padding-bottom: 70px;
-        box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+        padding-bottom: 100px;
         z-index: 1000;
     }
     .navbar-list.active {
@@ -904,4 +903,5 @@ footer p {
     100% { opacity: 1; }
 
 }
+
 
