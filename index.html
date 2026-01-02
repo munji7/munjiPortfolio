@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#home">
+          <img
+            src="img/munjis-light-logo.webp"
+            alt="Munji Logo"
+            title="Back to home"
+            height="35"
+          />
+        </a>
+      </div>
+
+      <nav>
+        <ul class="navbar-list">
+          <li class="nav-item"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="section hero-section">
+        <div class="badge welcome">Welcome to my portofolio</div>
+
+        <h1>
+          Hi I'm
+          <span class="highlight"
+            ><span class="typing-text"></span
+            ><span class="cursor">|</span></span
+          >
+        </h1>
+
+        <div class="typing-container">
+          <p>
+            CS Freshman | Web & Game Dev Enthusiast. I turn creative ideas into
+            working code.
+          </p>
+        </div>
+
+        <div class="social-icon">
+          <a href="https://github.com/munji7" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/gilang-putra-pradhita-dani-57986a378"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="mailto:moenzzie@gmail.com" target="_blank"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+
+        <div class="hero-btn">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="badge about-me">About Me</div>
+
+        <div class="about-container">
+          <div class="about-image-wrapper">
+            <img
+              src="img/gwejh.webp"
+              alt="Gambar Pria Tampan"
+              title="It's Me!"
+            />
+          </div>
+
+          <div class="about-description">
+            <p>
+              Hi! I'm <span class="highlight">Munji</span>, a Computer Science
+              Freshman exploring the endless possibilities of tech. My journey
+              in Computer Science solidified my interest in the art of Front-End
+              Development. I love turning lines of HTML, CSS, and JavaScript
+              into clean, interactive interfaces.
+            </p>
+            <p>
+              I focus on building responsive websites that provide a smooth
+              experience on any device. Currently, I'm dedicated to leveling up
+              my coding skills and and eager to gain real-world experience
+              through internships or team projects.
+            </p>
+
+            <div class="stats-container">
+              <div class="stats">
+                <h3>10+</h3>
+                <p>Projects Completed</p>
+              </div>
+              <div class="stats">
+                <h3>19M+</h3>
+                <p>Job Opportunities</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills-section">
+        <div class="skills-container">
+          <div class="badge my-skills">My Expertise</div>
+
+          <div class="sub-header">
+            <h2>Skills & Technologies</h2>
+            <p>Tools and languages I use to build responsive websites.</p>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="icon-box">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h3>Frontend Development</h3>
+              <p>
+                HTML5, CSS3, Semantic Markup, Responsive Layouts (Flexbox &
+                Grid).
+              </p>
+            </div>
+
+            <div class="skill-card">
+              <div class="icon-box">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <h3>Programming</h3>
+              <p>JavaScript (Basic), DOM Manipulation, Event Listeners.</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="icon-box">
+                <i class="fa-solid fa-toolbox"></i>
+              </div>
+              <h3>Tools & Version Control</h3>
+              <p>Git, GitHub, VS Code, Chrome DevTools, Command Line.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <div class="badge my-skills">My Project</div>
+
+        <div class="sub-header">
+          <h2>Featured Projects</h2>
+          <p>Showcasing my journey in frontend development.</p>
+        </div>
+
+        <div class="container">
+          <div class="project-grid">
+            <div class="project-card">
+              <div class="card-image">
+                <img src="img/porto.jpg" alt="Personal Portfolio" />
+              </div>
+              <div class="card-content">
+                <span class="project-tag">HTML/CSS</span>
+                <h3>Personal Portfolio</h3>
+                <p>
+                  My first personal website to showcase my skills and identity.
+                  Built with responsive design principles.
+                </p>
+                <div class="card-links">
+                  <a
+                    href="https://github.com/munji7/firstPortfolio"
+                    target="_blank"
+                    class="btn-outline"
+                    >View Code <i class="fa-brands fa-github"></i
+                  ></a>
+                  <a
+                    href="https://munji7.github.io/firstPortfolio/"
+                    target="_blank"
+                    class="btn-fill"
+                    >Live Demo
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-image">
+                <img src="img/taskFlow.webp" alt="Task Flow App" />
+              </div>
+              <div class="card-content">
+                <span class="project-tag">JavaScript CRUD</span>
+                <h3>Task Flow</h3>
+                <p>
+                  A smart productivity app featuring Drag & Drop, Dark Mode, and
+                  LocalStorage persistence. Includes a confetti reward system.
+                </p>
+                <div class="card-links">
+                  <a
+                    href="https://github.com/munji7/taskFlow"
+                    target="_blank"
+                    class="btn-outline"
+                    >View Code <i class="fa-brands fa-github"></i
+                  ></a>
+                  <a
+                    href="https://munji7.github.io/taskFlow/"
+                    target="_blank"
+                    class="btn-fill"
+                    >Live Demo
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-image">
+                <img src="img/skyCast.webp" alt="SkyCast Weather App" />
+              </div>
+              <div class="card-content">
+                <span class="project-tag">Fetch API</span>
+                <h3>SkyCast Weather</h3>
+                <p>
+                  Real-time weather dashboard using OpenWeatherMap API. Features
+                  Glassmorphism UI and dynamic error handling.
+                </p>
+                <div class="card-links">
+                  <a
+                    href="https://github.com/munji7/SkyCast"
+                    target="_blank"
+                    class="btn-outline"
+                    >View Code <i class="fa-brands fa-github"></i
+                  ></a>
+                  <a
+                    href="https://munji7.github.io/skyCast/"
+                    target="_blank"
+                    class="btn-fill"
+                    >Live Demo
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div>
+          <div class="badge contact-me">Contact Me</div>
+          <div class="sub-header"><h2>SEND ME A MESSAGE</h2></div>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="subContainer1">
+            <form
+              target="_blank"
+              action="https://formsubmit.co/acad573ab0e629776acf84786da96b6e"
+              method="POST"
+            >
+              <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="hidden"
+                name="_next"
+                value="http://127.0.0.1:5500/thanks.html#home"
+              />
+
+              <input
+                type="text"
+                name="Username"
+                id="userName"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+              <input
+                type="text"
+                name="Subject"
+                id="subject"
+                placeholder="Subject"
+                required
+              />
+              <textarea
+                name="Message"
+                id="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+
+              <button type="submit" id="submitBtn">Send Message</button>
+            </form>
+          </div>
+
+          <div class="subContainer2">
+            <h2 class="contactTitle">CONTACT INFO</h2>
+
+            <h3 class="contactSub">Where to Find Me</h3>
+            <p class="description">
+              Kec. Jepon Kab. Blora,<br />Jawa Tengah 58261
+            </p>
+
+            <h3 class="contactSub">Email Me At</h3>
+            <ul class="contactInfo">
+              <li>moenzzie@gmail.com</li>
+              <li>gilangpradhita@gmail.com</li>
+            </ul>
+
+            <h3 class="contactSub">Socials</h3>
+            <ul class="ulMedsos">
+              <li class="liMedsos">
+                <a href="https://wa.me/6289647464955" target="_blank"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </li>
+              <li class="liMedsos">
+                <a
+                  href="https://discord.com/users/941897580835651626"
+                  target="_blank"
+                  ><i class="fa-brands fa-discord"></i
+                ></a>
+              </li>
+              <li class="liMedsos">
+                <a href="https://www.tiktok.com/@moonzzyy_" target="_blank"
+                  ><i class="fa-brands fa-tiktok"></i
+                ></a>
+              </li>
+              <li class="liMedsos">
+                <a href="https://instagram.com/gipradhita" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li class="liMedsos">
+                <a href="https://github.com/munji7" target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              <li class="liMedsos">
+                <a
+                  href="https://www.linkedin.com/in/gilang-putra-pradhita-dani-57986a378"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <footer>
+          <p>Diapain dulu itu apanya biar ga apa kali.</p>
+          <p>Munji's Copyright &copy;2026 All rights reserved.</p>
+        </footer>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
