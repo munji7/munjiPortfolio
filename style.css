@@ -780,7 +780,7 @@ footer p {
         height: 100vh;
         text-align: center;
         transition: 0.3s;
-        padding: 20px 0;
+        padding-bottom: 70px;
         box-shadow: 0 10px 10px rgba(0,0,0,0.1);
         z-index: 1000;
     }
@@ -904,3 +904,4 @@ footer p {
     100% { opacity: 1; }
 
 }
+
